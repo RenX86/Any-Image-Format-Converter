@@ -2,9 +2,6 @@ import subprocess
 import os
 from pathlib import Path
 from typing import Tuple, Optional
-import logging
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 SUPPORTED_FORMATS = ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff','webp']
 DEFAULT_QUALITY = 100  # Default quality setting

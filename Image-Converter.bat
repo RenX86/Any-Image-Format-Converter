@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: Set the path to your Python script
-set "SCRIPT_PATH=%~dp0Image-Converter.py"
+set "SCRIPT_PATH=%~dp0Magick-1.py"
 
 :: Check if Python is installed and in PATH
 where python >nul 2>nul
